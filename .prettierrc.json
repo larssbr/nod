@@ -1,7 +1,6 @@
 {
   "prettier.arrowParens": "avoid",
   "prettier.bracketSpacing": true,
-  "prettier.disableLanguages": ["vue"],
   "prettier.eslintIntegration": false,
   "prettier.ignorePath": ".prettierignore",
   "prettier.jsxBracketSameLine": false,
