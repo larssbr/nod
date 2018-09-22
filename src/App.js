@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import LogInComponent from "./auth/logInComponent";
 import CreateActivity from "./activity/createActivity";
+// import GoogleApi from "utils/GoogleApi";
+import Map from "./components/Map/Map.js";
 import logo from "./logo.svg";
 import "./App.css";
 
@@ -31,6 +33,10 @@ class App extends Component {
 
         <div style={{ height: 10 }}> </div>
         <CreateActivity />
+        <div style={{ height: 10 }}> </div>
+        <p> here i will put the map</p>
+        <Map />
+        <div />
       </div>
     );
   }
