@@ -158,7 +158,7 @@ class App extends Component {
               borderRadius: 22
             }}
           >
-            <div className="profile">
+            <button className="profile">
               <div className="avatar">
                 <Avatar
                   style={{ width: "100px", height: "100px" }}
@@ -178,9 +178,8 @@ class App extends Component {
               <div className="profile-name">
                 <h2>Peter Pan</h2>
               </div>
-            </div>
-            <hr />
-            <div className="profile">
+            </button>
+            <button className="profile">
               <div className="avatar">
                 <Avatar
                   style={{ width: "100px", height: "100px" }}
@@ -201,9 +200,8 @@ class App extends Component {
               <div className="profile-name">
                 <h2>Christian Conan</h2>
               </div>
-            </div>
-            <hr />
-            <div className="profile">
+            </button>
+            <button className="profile">
               <div className="avatar">
                 <Avatar
                   style={{ width: "100px", height: "100px" }}
@@ -224,9 +222,8 @@ class App extends Component {
               <div className="profile-name">
                 <h2>Chi Li</h2>
               </div>
-            </div>
-            <hr />
-            <div className="profile">
+            </button>
+            <button className="profile">
               <div className="avatar">
                 <Avatar
                   style={{ width: "100px", height: "100px" }}
@@ -247,9 +244,8 @@ class App extends Component {
               <div className="profile-name">
                 <h2>Conan James</h2>
               </div>
-            </div>
-            <hr />
-            <div className="profile">
+            </button>
+            <button className="profile">
               <div className="avatar">
                 <Avatar
                   style={{ width: "100px", height: "100px" }}
@@ -270,7 +266,52 @@ class App extends Component {
               <div className="profile-name">
                 <h2>Hans Meyer</h2>
               </div>
-            </div>
+            </button>
+            <button className="profile">
+              <div className="avatar">
+                <Avatar
+                  style={{ width: "100px", height: "100px" }}
+                  avatarStyle="Transparent"
+                  topType="LongHairFroBand"
+                  accessoriesType="Round"
+                  hairColor="BlondeGolden"
+                  facialHairType="MoustacheFancy"
+                  facialHairColor="Red"
+                  clotheType="BlazerSweater"
+                  clotheColor="PastelOrange"
+                  graphicType="Skull"
+                  eyeType="EyeRoll"
+                  eyebrowType="SadConcerned"
+                  mouthType="Sad"
+                  skinColor="Pale"
+                />
+              </div>
+              <div className="profile-name">
+                <h2>Tom Eckardt</h2>
+              </div>
+            </button>
+            <button className="profile">
+              <div className="avatar">
+                <Avatar
+                  style={{ width: "100px", height: "100px" }}
+                  avatarStyle="Transparent"
+                  topType="LongHairDreads"
+                  accessoriesType="Wayfarers"
+                  hairColor="Auburn"
+                  facialHairType="MoustacheMagnum"
+                  facialHairColor="BlondeGolden"
+                  clotheType="Overall"
+                  clotheColor="Gray02"
+                  eyeType="WinkWacky"
+                  eyebrowType="Angry"
+                  mouthType="Concerned"
+                  skinColor="DarkBrown"
+                />
+              </div>
+              <div className="profile-name">
+                <h2>Valentin Kauth</h2>
+              </div>
+            </button>
           </div>
         </div>
       </div>
