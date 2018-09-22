@@ -5,6 +5,7 @@ import WhenActivity from "./when/whenActivity";
 // import GoogleApi from "utils/GoogleApi";
 import Map from "./components/Map/Map.js";
 import logo from "./logo.svg";
+import nodLogo from "./assets/nod.png";
 import "./App.css";
 
 class App extends Component {
@@ -41,7 +42,7 @@ class App extends Component {
             }}
           >
             <header className="App-header">
-              <img src={logo} className="App-logo" alt="logo" />
+              <img src={nodLogo} className="App-logo" alt="logo" />
               <h1 className="App-title">Welcome to Nod</h1>
             </header>
           </div>
