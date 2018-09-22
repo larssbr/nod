@@ -176,9 +176,7 @@ class App extends Component {
                 />
               </div>
               <div className="profile-name">
-                <h4>
-                  <a href="#">Peter Pan</a>
-                </h4>
+                <h2>Peter Pan</h2>
               </div>
             </div>
             <hr />
@@ -201,9 +199,7 @@ class App extends Component {
                 />
               </div>
               <div className="profile-name">
-                <h4>
-                  <a href="#">Peter Pan</a>
-                </h4>
+                <h2>Christian Conan</h2>
               </div>
             </div>
             <hr />
@@ -226,9 +222,53 @@ class App extends Component {
                 />
               </div>
               <div className="profile-name">
-                <h4>
-                  <a href="#">Peter Pan</a>
-                </h4>
+                <h2>Chi Li</h2>
+              </div>
+            </div>
+            <hr />
+            <div className="profile">
+              <div className="avatar">
+                <Avatar
+                  style={{ width: "100px", height: "100px" }}
+                  avatarStyle="Transparent"
+                  topType="Hat"
+                  accessoriesType="Round"
+                  hairColor="Brown"
+                  facialHairType="Blank"
+                  facialHairColor="Platinum"
+                  clotheType="ShirtVNeck"
+                  clotheColor="PastelBlue"
+                  eyeType="EyeRoll"
+                  eyebrowType="UpDownNatural"
+                  mouthType="Vomit"
+                  skinColor="Black"
+                />
+              </div>
+              <div className="profile-name">
+                <h2>Conan James</h2>
+              </div>
+            </div>
+            <hr />
+            <div className="profile">
+              <div className="avatar">
+                <Avatar
+                  style={{ width: "100px", height: "100px" }}
+                  avatarStyle="Transparent"
+                  topType="ShortHairShortRound"
+                  accessoriesType="Sunglasses"
+                  hairColor="Brown"
+                  facialHairType="BeardMedium"
+                  facialHairColor="BlondeGolden"
+                  clotheType="CollarSweater"
+                  clotheColor="Blue02"
+                  eyeType="EyeRoll"
+                  eyebrowType="AngryNatural"
+                  mouthType="Eating"
+                  skinColor="Tanned"
+                />
+              </div>
+              <div className="profile-name">
+                <h2>Hans Meyer</h2>
               </div>
             </div>
           </div>
