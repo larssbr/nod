@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component, Button } from "react";
 import LogInComponent from "./auth/logInComponent";
 import CreateActivity from "./activity/createActivity";
 import Avatar from 'avataaars'
@@ -41,22 +41,23 @@ class App extends Component {
             }}
           >
             <header className="App-header">
-            <div className="avatar">
-                  <Avatar
-                      style={{width: '100px', height: '100px'}}
-                      avatarStyle='Transparent'
-                      topType='Hat'
-                      accessoriesType='Blank'
-                      facialHairType='BeardMedium'
-                      facialHairColor='Black'
-                      clotheType='Hoodie'
-                      clotheColor='Red'
-                      eyeType='Wink'
-                      eyebrowType='UpDown'
-                      mouthType='Twinkle'
-                      skinColor='Pale'
-                  />
-              </div>
+              <div className="avatar">
+                    <Avatar
+                        style={{width: '100px', height: '100px'}}
+                        avatarStyle='Transparent'
+                        topType='Hat'
+                        accessoriesType='Blank'
+                        facialHairType='BeardMedium'
+                        facialHairColor='Black'
+                        clotheType='Hoodie'
+                        clotheColor='Red'
+                        eyeType='Wink'
+                        eyebrowType='UpDown'
+                        mouthType='Twinkle'
+                        skinColor='Pale'
+                    />
+                </div>
+
               <h1 className="App-title">Welcome to Nod</h1>
             </header>
           </div>
@@ -83,18 +84,54 @@ class App extends Component {
         <Map />
 
         <p> screen 5</p>
-        <p> the invitation preview</p>
-        <p> the Event:</p>
+        <div
+          style={{
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            justifyItems: "center"
+          }}
+        >
+          <div
+            className="MakeNod"
+            style={{
+              backgroundColor: "#fda085",
+              width: "60%",
+              justifyContent: "center",
+              justifyItems: "center",
+              borderRadius: 22
+            }}
+          >
+            <p> The invitation preview</p>
+            <p> the Event:</p>
+            <div
+              style={{
+                backgroundColor: "#566556",
+                justifyContent: "center",
+                alignItems: "center",
+                width: "50%",
+                height: 60,
+                fontSize: 16,
+                fontWeight: 600
+              }}
+            >
+              <p>{this.state.inputInfoTextDataFromChild}</p>
+            </div>
 
-        <p>{this.state.inputInfoTextDataFromChild}</p>
-        <div style={{ height: 10 }}> </div>
-        <p> the time entered</p>
-        <div style={{ height: 10 }}> </div>
-        <p> {this.state.inputTimeDataFromChild}</p>
+            <div style={{ height: 10 }}> </div>
+            <p> the time entered</p>
+            <div style={{ height: 10 }}> </div>
+            <p> {this.state.inputTimeDataFromChild} min </p>
 
-        <p> the map with the location</p>
-        <p> send it nooooooow</p>
-        <div />
+            <p> the map with the location</p>
+            <p>[lat, lng]</p>
+
+            <p> send it nooooooow</p>
+            <button> click me </button>
+            <div style={{ height: 10 }}> </div>
+          </div>
+          <div />
+        </div>
       </div>
     );
   }
