@@ -16,6 +16,9 @@ class createActivity extends Component {
   };
 
   updateInputValue(evt) {
+    // update the parent component
+    this.props.callbackFromParent(evt.target.value);
+    // set the local state
     this.setState({
       inputValue: evt.target.value
     });
