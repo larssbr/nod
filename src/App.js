@@ -35,7 +35,14 @@ class App extends Component {
         <CreateActivity />
         <div style={{ height: 10 }}> </div>
         <p> here i will put the map</p>
-        <Map />
+        <div
+          style={{
+            display: "flex",
+            alignItems: "center"
+          }}
+        >
+          <Map />
+        </div>
         <div />
       </div>
     );
