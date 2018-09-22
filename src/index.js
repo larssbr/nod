@@ -14,6 +14,8 @@ import { unregister } from "./registerServiceWorker";
 // set the google api key
 GoogleMapsLoader.KEY = settings.googleMapsApiKey;
 GoogleMapsLoader.LIBRARIES = ["places", "geometry"];
+GoogleMapsLoader.REGION = "NO";
+GoogleMapsLoader.LANGUAGE = "no";
 
 //registerServiceWorker();
 

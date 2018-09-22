@@ -13,7 +13,8 @@ class App extends Component {
 
     this.state = {
       inputInfoTextDataFromChild: "",
-      inputTimeDataFromChild: 60
+      inputTimeDataFromChild: 60,
+      locationFromChild: ""
     };
   }
 
@@ -22,6 +23,10 @@ class App extends Component {
   };
 
   myCallbackTimeOfEvent = dataFromChild => {
+    this.setState({ inputTimeDataFromChild: dataFromChild });
+  };
+
+  myCallbackEventLocation = dataFromChild => {
     this.setState({ inputTimeDataFromChild: dataFromChild });
   };
 
@@ -81,7 +86,7 @@ class App extends Component {
 
         <p> screen 4</p>
 
-        <Map />
+        <Map callbackFromParent={this.myCallbackEventLocation} />
 
         <p> screen 5</p>
         <div
