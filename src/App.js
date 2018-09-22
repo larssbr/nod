@@ -43,16 +43,11 @@ class App extends Component {
         <div style={{ height: 10 }}> </div>
 
         <p> screen 4</p>
-        <div
-          style={{
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "center",
-            justifyItems: "center"
-          }}
-        >
-          <Map />
-        </div>
+
+        <Map />
+
+        <p> screen 5</p>
+        <p> the invitation preview</p>
         <div />
       </div>
     );

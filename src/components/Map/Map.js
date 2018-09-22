@@ -10,12 +10,23 @@ class Map extends Component {
       />
     ));
     return (
-      <div style={{ backgroundColor: "#568989" }}>
-        <p> enter the location of the event</p>
-        <GoogleMapExample
-          containerElement={<div style={{ height: `500px`, width: "500px" }} />}
-          mapElement={<div style={{ height: `100%` }} />}
-        />
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          justifyItems: "center"
+        }}
+      >
+        <div style={{ width: "500px", backgroundColor: "#568989" }}>
+          <p> enter the location of the event</p>
+          <GoogleMapExample
+            containerElement={
+              <div style={{ height: `500px`, width: "500px" }} />
+            }
+            mapElement={<div style={{ height: `100%` }} />}
+          />
+        </div>
       </div>
     );
   }
