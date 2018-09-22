@@ -41,7 +41,7 @@ class App extends Component {
             }}
           >
             <header className="App-header">
-              <div className="avatar">
+              <div className="avatar-moving">
                 <Avatar
                   style={{ width: "100px", height: "100px" }}
                   avatarStyle="Transparent"
@@ -134,8 +134,100 @@ class App extends Component {
         </div>
 
         <p> screen 6</p>
-
-        <p> add freinds here </p>
+        <div
+          className="app-create-activity"
+          style={{
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            justifyItems: "center"
+          }}
+        >
+          <div
+            className="MakeNod"
+            style={{
+              backgroundColor: "#fda085",
+              width: "60%",
+              justifyContent: "center",
+              justifyItems: "center",
+              borderRadius: 22
+            }}
+          >
+            <div className="profile">
+              <div className="avatar">
+                <Avatar
+                  style={{ width: "100px", height: "100px" }}
+                  avatarStyle="Transparent"
+                  topType="ShortHairDreads02"
+                  accessoriesType="Blank"
+                  hairColor="BlondeGolden"
+                  facialHairType="Blank"
+                  clotheType="Hoodie"
+                  clotheColor="Red"
+                  eyeType="Cry"
+                  eyebrowType="RaisedExcited"
+                  mouthType="Smile"
+                  skinColor="Tanned"
+                />
+              </div>
+              <div className="profile-name">
+                <h4>
+                  <a href="#">Peter Pan</a>
+                </h4>
+              </div>
+            </div>
+            <hr />
+            <div className="profile">
+              <div className="avatar">
+                <Avatar
+                  style={{ width: "100px", height: "100px" }}
+                  avatarStyle="Transparent"
+                  topType="LongHairMiaWallace"
+                  accessoriesType="Blank"
+                  hairColor="Platinum"
+                  facialHairType="BeardLight"
+                  facialHairColor="BrownDark"
+                  clotheType="BlazerShirt"
+                  clotheColor="PastelRed"
+                  eyeType="Squint"
+                  eyebrowType="DefaultNatural"
+                  mouthType="Sad"
+                  skinColor="Light"
+                />
+              </div>
+              <div className="profile-name">
+                <h4>
+                  <a href="#">Peter Pan</a>
+                </h4>
+              </div>
+            </div>
+            <hr />
+            <div className="profile">
+              <div className="avatar">
+                <Avatar
+                  style={{ width: "100px", height: "100px" }}
+                  avatarStyle="Transparent"
+                  topType="ShortHairFrizzle"
+                  accessoriesType="Blank"
+                  hairColor="Black"
+                  facialHairType="BeardMagestic"
+                  facialHairColor="Platinum"
+                  clotheType="ShirtVNeck"
+                  clotheColor="Gray01"
+                  eyeType="Happy"
+                  eyebrowType="FlatNatural"
+                  mouthType="Eating"
+                  skinColor="DarkBrown"
+                />
+              </div>
+              <div className="profile-name">
+                <h4>
+                  <a href="#">Peter Pan</a>
+                </h4>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     );
   }
