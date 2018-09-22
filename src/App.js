@@ -1,7 +1,7 @@
 import React, { Component, Button } from "react";
 import LogInComponent from "./auth/logInComponent";
 import CreateActivity from "./activity/createActivity";
-import Avatar from 'avataaars'
+import Avatar from "avataaars";
 import WhenActivity from "./when/whenActivity";
 // import GoogleApi from "utils/GoogleApi";
 import Map from "./components/Map/Map.js";
@@ -42,21 +42,21 @@ class App extends Component {
           >
             <header className="App-header">
               <div className="avatar">
-                    <Avatar
-                        style={{width: '100px', height: '100px'}}
-                        avatarStyle='Transparent'
-                        topType='Hat'
-                        accessoriesType='Blank'
-                        facialHairType='BeardMedium'
-                        facialHairColor='Black'
-                        clotheType='Hoodie'
-                        clotheColor='Red'
-                        eyeType='Wink'
-                        eyebrowType='UpDown'
-                        mouthType='Twinkle'
-                        skinColor='Pale'
-                    />
-                </div>
+                <Avatar
+                  style={{ width: "100px", height: "100px" }}
+                  avatarStyle="Transparent"
+                  topType="Hat"
+                  accessoriesType="Blank"
+                  facialHairType="BeardMedium"
+                  facialHairColor="Black"
+                  clotheType="Hoodie"
+                  clotheColor="Red"
+                  eyeType="Wink"
+                  eyebrowType="UpDown"
+                  mouthType="Twinkle"
+                  skinColor="Pale"
+                />
+              </div>
 
               <h1 className="App-title">Welcome to Nod</h1>
             </header>
@@ -132,6 +132,10 @@ class App extends Component {
           </div>
           <div />
         </div>
+
+        <p> screen 6</p>
+
+        <p> add freinds here </p>
       </div>
     );
   }
