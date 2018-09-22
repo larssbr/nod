@@ -1,6 +1,30 @@
-import React, { Component } from "react";
+import React, { Component, Alert } from "react";
 
 class createActivity extends Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      enteredInformation: false,
+      inputInfoText: "",
+      inputValue: ""
+    };
+  }
+
+  handleUserSubmit = () => {
+    alert("cool dude");
+  };
+
+  updateInputValue(evt) {
+    this.setState({
+      inputValue: evt.target.value
+    });
+  }
+
+  alertMessage = () => {
+    return this.state.inputValue;
+  };
+
   render() {
     return (
       <div
@@ -27,11 +51,27 @@ class createActivity extends Component {
             <label>
               What i want to do:
               <div style={{ height: 10 }}> </div>
-              <input type="text" name="name" />
+              <input
+                type="text"
+                name="name"
+                value={this.state.inputValue}
+                onChange={evt => this.updateInputValue(evt)}
+              />
             </label>
-            <input type="submit" value="Submit" />
+            <input
+              className="submit-string"
+              type="submit"
+              value="Submit"
+              onClick={() =>
+                this.setState({ enteredInformation: true }, () =>
+                  alert(this.alertMessage())
+                )
+              }
+            />
           </form>
           <div style={{ height: 10 }}> </div>
+          <p> text in state</p>
+          <p> {this.alertMessage()} </p>
         </div>
       </div>
     );

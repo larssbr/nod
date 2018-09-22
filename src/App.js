@@ -38,6 +38,9 @@ class App extends Component {
         <p> screen 2</p>
         <CreateActivity />
         <div style={{ height: 10 }}> </div>
+        <p> the state from screen 2</p>
+        <p> here: </p>
+
         <p> screen 3</p>
         <WhenActivity />
         <div style={{ height: 10 }}> </div>
@@ -48,6 +51,10 @@ class App extends Component {
 
         <p> screen 5</p>
         <p> the invitation preview</p>
+        <p> the string entered</p>
+        <p> the time entered</p>
+        <p> the map with the location</p>
+        <p> send it nooooooow</p>
         <div />
       </div>
     );
