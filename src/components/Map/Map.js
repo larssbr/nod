@@ -1,11 +1,45 @@
 import React, { Component } from "react";
-import { withGoogleMap, GoogleMap } from "react-google-maps";
+import {
+  withGoogleMap,
+  GoogleMap,
+  Marker,
+  withScriptjs
+} from "react-google-maps";
+//import { compose, withProps } from "recompose";
+
+let markers = [];
+let markerOfEvent = [
+  {
+    name: "My event",
+    lat: "31.633980",
+    lng: "74.872261"
+  }
+];
+
+let myPositionMarker = [
+  {
+    name: "My Position",
+    lat: "20.5937",
+    lng: "74.7893"
+  }
+];
+
+//const myLatLng = new google.maps.LatLng(59.911491, 10.757933);
 
 class Map extends Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      lat: "",
+      lng: ""
+    };
+  }
+
   render() {
     const GoogleMapExample = withGoogleMap(props => (
       <GoogleMap
-        defaultCenter={{ lat: 40.756795, lng: -73.954298 }}
+        defaultCenter={{ lat: 59.911491, lng: 10.757933 }}
         defaultZoom={13}
       />
     ));
