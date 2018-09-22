@@ -1,0 +1,69 @@
+@charset "utf-8";
+.Header {
+  background: #ff9500;
+  background: rgba(255, 149, 0, 1);
+  position: absolute;
+  left: -770px;
+  top: -1354px;
+  width: 750px;
+  height: 133px;
+  box-shadow: 0px 6px 5px rgba(0, 0, 0, 0.2);
+  filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=0, OffY=6, Color='#000000');
+}
+.inputbox {
+  background: #ffffff;
+  background: rgba(255, 255, 255, 1);
+  position: absolute;
+  left: -679px;
+  top: -1015px;
+  width: 569px;
+  height: 123px;
+  border-radius: 9px;
+  -moz-border-radius: 9px;
+  -webkit-border-radius: 9px;
+  box-shadow: 0px 6px 5px rgba(0, 0, 0, 0.2);
+  filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=0, OffY=6, Color='#000000');
+}
+.continuebox {
+  border-style: Solid;
+  border-color: #ff9500;
+  border-color: rgba(255, 149, 0, 1);
+  border-width: 1px;
+  position: absolute;
+  left: -679px;
+  top: -253px;
+  width: 569px;
+  height: 123px;
+  border-radius: 9px;
+  -moz-border-radius: 9px;
+  -webkit-border-radius: 9px;
+}
+.inputText {
+  font-family: Helvetica Neue;
+  font-size: 30px;
+  color: #000000;
+  color: rgb(0, 0, 0);
+  opacity: 0.4;
+  filter: alpha(opacity=40) progid: DXImageTransform.Microsoft.Alpha(opacity=40);
+}
+.HeaderTex {
+  font-family: Helvetica Neue;
+  font-weight: bold;
+  font-size: 38px;
+  color: #ffffff;
+  color: rgb(255, 255, 255);
+}
+.Title {
+  font-family: Helvetica Neue;
+  font-weight: bold;
+  font-size: 50px;
+  color: #000000;
+  color: rgb(0, 0, 0);
+}
+.ContinueText {
+  font-family: Helvetica Neue;
+  font-weight: bold;
+  font-size: 30px;
+  color: #ff9500;
+  color: rgb(255, 149, 0);
+}
