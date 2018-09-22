@@ -38,7 +38,9 @@ class App extends Component {
         <div
           style={{
             display: "flex",
-            alignItems: "center"
+            alignItems: "center",
+            justifyContent: "center",
+            justifyItems: "center"
           }}
         >
           <Map />
