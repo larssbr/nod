@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 import LogInComponent from "./auth/logInComponent";
 import CreateActivity from "./activity/createActivity";
+import Avatar from 'avataaars'
 import WhenActivity from "./when/whenActivity";
 // import GoogleApi from "utils/GoogleApi";
 import Map from "./components/Map/Map.js";
-import logo from "./logo.svg";
 import "./App.css";
 
 class App extends Component {
@@ -41,7 +41,22 @@ class App extends Component {
             }}
           >
             <header className="App-header">
-              <img src={logo} className="App-logo" alt="logo" />
+            <div className="avatar">
+                  <Avatar
+                      style={{width: '100px', height: '100px'}}
+                      avatarStyle='Transparent'
+                      topType='Hat'
+                      accessoriesType='Blank'
+                      facialHairType='BeardMedium'
+                      facialHairColor='Black'
+                      clotheType='Hoodie'
+                      clotheColor='Red'
+                      eyeType='Wink'
+                      eyebrowType='UpDown'
+                      mouthType='Twinkle'
+                      skinColor='Pale'
+                  />
+              </div>
               <h1 className="App-title">Welcome to Nod</h1>
             </header>
           </div>
