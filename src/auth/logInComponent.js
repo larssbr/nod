@@ -22,6 +22,7 @@ class logInComponent extends Component {
             borderRadius: 22
           }}
         >
+          <p> Sign In</p>
           <form>
             <div style={{ height: 10 }}> </div>
             <label>
@@ -33,7 +34,7 @@ class logInComponent extends Component {
           <form>
             <label>
               Password:
-              <input type="text" name="name" />
+              <input type="password" name="password" />
             </label>
             <div style={{ height: 10 }}> </div>
             <input type="submit" value="Submit" />
